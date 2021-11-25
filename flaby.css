@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    text-decoration: none;
+    height: 100vh;
+    width: 100vw;
+}
+  
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: url('./img/bkg.gemm.jfif');
+}
+  
+.HM {
+    text-decoration: none;
+    color: turquoise;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding:0%;
+}
+.bird {
+    height: 80px;
+    width: 90px;
+    position: fixed;
+    top: 40vh;
+    left: 30vw;
+    z-index: 100;
+}
+  
+.pipe_sprite {
+    position: fixed;
+    top: 40vh;
+    left: 100vw;
+    height: 70vh;
+    width: 4vw;
+    background: url('./img/pipee.png');
+}
+  
+.message {
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-family: monospace;
+    font-size: 10vh;
+    font-weight: 100;
+    color:gold;
+    top: 12vh;
+    left: 20vw;
+    text-align: center;
+}
+  
+.score {
+ 
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-size: 10vh;
+    font-weight: 100;
+    color: goldenrod;
+    top: 0;
+    left: -100;
+}
+  
+.score_val {
+    color: gold;
+}
+

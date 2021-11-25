@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./img/bkg.jpg');
+    background-position: cover;
+    background: size 150px;;
+}
+.navbar{
+    margin: 0px;
+    font-family: monospace;
+    font-size: 35px;
+}
+.nav li{ 
+    list-style: none;
+    float: left;
+    padding: 10px;
+    }
+.nav li a{
+    text-decoration: none;
+    color: turquoise;
+    font-size: 25px;
+    text-transform: uppercase;
+} 
+
+.navbar-brand {
+    color: #c8c8c8;
+    margin: 0px;
+    text-indent: -10000px;
+    background: url('./img/logo.png') center no-repeat; 
+    width: 300px;
+    float: left;
+    padding: 15px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.inst{
+    font-family: monospace;
+    text-align:left;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    
+
+}
